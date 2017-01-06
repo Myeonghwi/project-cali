@@ -46,6 +46,26 @@
                 <a class="navbar-brand page-scroll" href="#page-top">Green World</a>
             </div>
 
+            {% if user.is_active %}
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#simulation">시뮬레이션</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">게시판</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/accounts/register">마이페이지</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/accounts/login">로그아웃</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            {% else %}
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -64,6 +84,7 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
+            {% endif %}
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -100,10 +121,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h2 class="section-heading">활용하세요</h2>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#" class="page-scroll btn btn-default btn-xl sr-button">시뮬레이션 시작하기!</a>
+                    <p class="text-faded">간단한 몇 단계의 설정들로 공동주택 그린 리모델링 결과를 시뮬레이션 해볼 수 있습니다.</p>
+                    <a href="/simulation/apt_info" class="page-scroll btn btn-default btn-xl sr-button">시뮬레이션 시작하기!</a>
                 </div>
             </div>
         </div>
