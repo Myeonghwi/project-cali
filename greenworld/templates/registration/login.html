@@ -7,14 +7,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>그린월드</title>
+        <title>그린월드 | 로그인</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
         <link rel="stylesheet" href="{% static 'assets/bootstrap/css/bootstrap.min.css' %}">
         <link rel="stylesheet" href="{% static 'assets/font-awesome/css/font-awesome.min.css' %}">
 		<link rel="stylesheet" href="{% static 'assets/css/form-elements.css' %}">
-        <link rel="stylesheet" href="{% static 'assets/css/accounts.css '%}">
+        <link rel="stylesheet" href="{% static 'assets/css/accounts.css' %}">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -22,14 +22,6 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="{% static 'assets/ico/favicon.png' %}">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-
     </head>
 
     <body>
@@ -40,43 +32,49 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 text">
-                            <h1><strong>GreenWorld</strong> Login</h1>
+                            <h1><a href="/"><strong>GreenWorld</strong></a> Login</h1>
                         </div>
                     </div>
+                    {% if user.is_active %}
+                        <div class="row">
+                            <h3>이미 로그인 되어 있습니다.</h3>
+                            <button type="submit" class="btn">로그아웃 하기</button>
+                        </div>
+                    {% else %}
+                        <div class="row">
+                        	<div class="form-box">
+                            	<div class="form-top">
+                            		<div class="form-top-left">
+                            			<h3>로그인 하기</h3>
+                                		<p>이메일과 비밀번호를 입력해 주세요.</p>
+                            		</div>
+                            		<div class="form-top-right">
+                            			<i class="fa fa-key"></i>
+                            		</div>
+                                </div>
+                                <div class="form-bottom">
+    			                    <form role="form" action="" method="post" class="login-form"> {% csrf_token %}
 
-                    <div class="row">
-                    	<div class="form-box">
-                        	<div class="form-top">
-                        		<div class="form-top-left">
-                        			<h3>로그인 하기</h3>
-                            		<p>이메일과 비밀번호를 입력해 주세요.</p>
-                        		</div>
-                        		<div class="form-top-right">
-                        			<i class="fa fa-key"></i>
-                        		</div>
-                            </div>
-                            <div class="form-bottom">
-			                    <form role="form" action="" method="post" class="login-form"> {% csrf_token %}
+                                    {% if form.errors %}
+                                    <p class="errornote"> 페이지에 문제가 있습니다.</p>
+                                    {% endif %}
 
-                                {% if form.errors %}
-                                <p class="errornote"> 페이지에 문제가 있습니다.</p>
-                                {% endif %}
-
-			                    	<div class="form-group">
-			                    		<label class="sr-only" for="form-email">email</label>
-			                        	    <!--<input type="text" name="form-email" placeholder="email" class="form-email form-control" id="form-email"> -->
-                                            {{ form.username }}
-			                        </div>
-			                        <div class="form-group">
-			                        	<label class="sr-only" for="form-password">Password</label>
-                                        {{ form.password }}
-			                        	<!-- <input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password"> -->
-			                        </div>
-			                        <button type="submit" class="btn">로그인</button>
-			                    </form>
-		                    </div>
-	                    </div>
-                    </div>
+    			                    	<div class="form-group">
+    			                    		<label class="sr-only" for="form-email">email</label>
+    			                        	    <!--<input type="text" name="form-email" placeholder="email" class="form-email form-control" id="form-email"> -->
+                                                {{ form.username }}
+    			                        </div>
+    			                        <div class="form-group">
+    			                        	<label class="sr-only" for="form-password">Password</label>
+                                            {{ form.password }}
+    			                        	<!-- <input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password"> -->
+    			                        </div>
+    			                        <button type="submit" class="btn">로그인</button>
+    			                    </form>
+    		                    </div>
+    	                    </div>
+                        </div>
+                    {% endif %}
                 </div>
             </div>  
         </div>

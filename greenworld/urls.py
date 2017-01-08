@@ -25,7 +25,9 @@ urlpatterns = [
 
     url(r'^$', HomeView.as_view(), name='index'),
 
+    # account
     url(r'^accounts/login/$', auth_views.login),
+    url(r'^accounts/logout/$', auth_views.logout),
     url(r'^accounts/register/$', UserCreateView.as_view(), name='register'),
     url(r'^accounts/register/done/$', UserCreateDoneTV.as_view(), name='register_done'),
 
