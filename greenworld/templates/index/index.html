@@ -112,7 +112,11 @@
                   </div>
                 </div>
                 <hr>
+                {% if user.is_active %}
+                <a href="/accounts/register" class="btn btn-primary btn-xl page-scroll">로그아웃 하기</a>
+                {% else %}
                 <a href="/accounts/register" class="btn btn-primary btn-xl page-scroll">회원가입 하기</a>
+                {% endif %}
             </div>
         </div>
     </header>
@@ -154,7 +158,7 @@
     <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.min.js '%}"></script>
+    <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
