@@ -20,7 +20,7 @@ body{margin:40px;}
 }
 
 .stepwizard-row:before {
-    top: 14px;
+    top: 20px;
     bottom: 0;
     position: absolute;
     content: " ";
@@ -39,22 +39,22 @@ body{margin:40px;}
 
 .btn-circle-selected {
   background-color: #227547;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   padding: 6px 0;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 1.428571429;
   border-radius: 15px;
 }
 
 .btn-circle {
   background-color: #ffffff;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   text-align: center;
   padding: 6px 0;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 1.428571429;
   border-radius: 15px;
 }
