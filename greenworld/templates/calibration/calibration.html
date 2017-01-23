@@ -33,6 +33,14 @@
         <div class="row">
             <!-- Jumbotron Header -->
             <div class="jumbotron hero-spacer">
+                <form action="." method="post"> {% csrf_token %}
+                    <table>
+                        {{ form.as_table }}
+                    </table>
+                    <input type="submit" value="Submit">
+                </form>
+
+                <b>{{ elec_jan }} </b>
                 <table id="mainTable" class="table table-striped">
                     <thead>
                         <tr>
