@@ -1,0 +1,2113 @@
+Program Version,EnergyPlus-Windows-64 8.1.0.009, YMD=2017.01.24 12:41,IDD_Version 8.1.0.009
+   ** Warning ** Timestep: Requested number (2) is less than the suggested minimum of 4.
+   **   ~~~   ** Please see entry for Timestep in Input/Output Reference for discussion of considerations.
+   ** Warning ** Site:GroundTemperature:BuildingSurface: Some values fall outside the range of 15-25C.
+   **   ~~~   ** These values may be inappropriate.  Please consult the Input Output Reference for more details.
+   ** Warning ** Weather file location will be used rather than entered (IDF) Location object.
+   **   ~~~   ** ..Location object=84TYPE_2CORE
+   **   ~~~   ** ..Weather File Location=INCH'ON - KOR IWEC Data WMO#=471120
+   **   ~~~   ** ..due to location differences, Latitude difference=[9.00E-002] degrees, Longitude difference=[0.42] degrees.
+   **   ~~~   ** ..Time Zone difference=[0.0] hour(s), Elevation difference=[19.54] percent, [17.00] meters.
+   ** Warning ** CheckUsedConstructions: There are 5 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_4_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_4_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_5_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_5_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_5_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_5_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_5_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_5_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_5_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_5_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_10_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_10_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_12_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_12_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_13_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_13_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_13_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_13_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_13_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_13_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_13_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_13_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_17_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_17_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_17_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_17_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_17_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_17_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_17_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_17_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_PARTITION_18_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_PARTITION_18_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_3 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_3 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_4 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_4 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_5 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_5 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_6 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_6 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=39.2466)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_8 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_8 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_9 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_9 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_11 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_11 is in front of receiving surface=1FLOOR:ZONE32_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=6.9259)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_5_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_9_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_4_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_4_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_5_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_5_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_5_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_5_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_5_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_5_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_5_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_5_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_10_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_10_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_12_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_12_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_13_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_13_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_13_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_13_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_13_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_13_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_13_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_13_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_17_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_17_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_17_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_17_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_17_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_17_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_17_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_17_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_PARTITION_18_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_PARTITION_18_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_3 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_3 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_4 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_4 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_5 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_5 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_6 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_6 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=83.2745)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_8 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_8 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_9 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_9 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_11 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_11 is in front of receiving surface=1FLOOR:ZONE32_WALL_11_0_0
+   **   ~~~   **    (Dot Product indicator=14.6955)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=36.5540)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_6_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_7_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_8_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_14_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_15_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_16_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_1 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_ROOF_1_0_7 is in front of receiving surface=1FLOOR:ZONE32_WALL_17_0_0
+   **   ~~~   **    (Dot Product indicator=12.9888)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_2_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_2_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_27_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_27_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_28_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_28_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_28_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_28_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_28_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_28_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_28_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_28_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_28_0_0_1_0_1_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_28_0_0_1_0_1_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_28_0_0_1_0_1_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_28_0_0_1_0_1_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_28_0_0_2_0_2_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_28_0_0_2_0_2_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_28_0_0_2_0_2_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_28_0_0_2_0_2_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_29_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_29_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_31_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_31_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_32_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_32_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_32_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_32_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE32_WALL_32_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_WALL_32_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_WALL_32_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE32_WALL_32_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_4 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_4 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_6 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_GROUNDFLOOR_0_0_6 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_ROOF_1_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_ROOF_1_0_0 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_ROOF_1_0_10 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_ROOF_1_0_10 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE32_ROOF_1_0_11 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE32
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE32_ROOF_1_0_11 is in front of receiving surface=1FLOOR:ZONE32_WALL_30_0_0
+   **   ~~~   **    (Dot Product indicator=9.1025)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE1_WALL_2_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE1_WALL_2_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE1_PARTITION_18_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE1_PARTITION_18_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE1_WALL_19_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE1_WALL_19_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE1_WALL_19_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE1_WALL_19_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE1_WALL_19_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE1_WALL_19_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE1_WALL_19_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE1_WALL_19_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE1_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE1_GROUNDFLOOR_0_0_2 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE1_ROOF_1_0_2 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE1_ROOF_1_0_2 is in front of receiving surface=1FLOOR:ZONE1_WALL_3_0_0
+   **   ~~~   **    (Dot Product indicator=4.5512)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE1_PARTITION_8_0_10000 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE1_PARTITION_8_0_10000 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE1_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE1_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE1_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE1_WALL_9_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE1_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE1_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 3 of back surface=1FLOOR:ZONE1_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE1_WALL_9_0_0_0_0_0_WIN is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE1_PARTITION_10_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 2 of back surface=1FLOOR:ZONE1_PARTITION_10_0_0 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE1_GROUNDFLOOR_0_0_5 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE1_GROUNDFLOOR_0_0_5 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 1 of back surface=1FLOOR:ZONE1_ROOF_1_0_5 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** Problem in interior solar distribution calculation (CHKBKS)
+   **   ~~~   **    Solar Distribution = FullInteriorExterior will not work in Zone=1FLOOR:ZONE1
+   **   ~~~   **    because vertex 4 of back surface=1FLOOR:ZONE1_ROOF_1_0_5 is in front of receiving surface=1FLOOR:ZONE1_WALL_13_0_0
+   **   ~~~   **    (Dot Product indicator=3.8821)
+   **   ~~~   **    Check surface geometry; if OK, use Solar Distribution = FullExterior instead.
+   ** Severe  ** InitInteriorConvectionCoeffs: Inside Convection=CeilingDiffuser, but no system inlet node defined, Zone=1FLOOR:ZONE30
+   **   ~~~   ** Defaulting inside convection to TARP. Check ZoneHVAC:EquipmentConnections for Zone=1FLOOR:ZONE30
+   ** Severe  ** InitInteriorConvectionCoeffs: Inside Convection=CeilingDiffuser, but no system inlet node defined, Zone=1FLOOR:ZONE29
+   **   ~~~   ** Defaulting inside convection to TARP. Check ZoneHVAC:EquipmentConnections for Zone=1FLOOR:ZONE29
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ** Warning ** The following Report Variables were requested but not generated
+   **   ~~~   ** because IDF did not contain these elements or misspelled variable name -- check .rdd file
+   ************* Key=1FLOOR:ZONE1, VarName=WATER USE EQUIPMENT HEATING ENERGY, Frequency=Monthly
+   ************* There are 10 unused schedules in input.
+   ************* There are 3 unused week schedules in input.
+   ************* There are 5 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 5 Warning; 416 Severe Errors; Elapsed Time=00hr 00min 11.21sec
