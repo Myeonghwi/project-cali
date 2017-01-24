@@ -1,4 +1,4 @@
-Program Version,EnergyPlus-Windows-64 8.1.0.009, YMD=2017.01.24 12:41
+Program Version,EnergyPlus-Windows-64 8.1.0.009, YMD=2017.01.24 16:57
 ! <Version>, Version ID
  Version, 8.1
 ! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
@@ -62,7 +62,7 @@ Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,2000,0.10,1000
  Zone Information, 1FLOOR:ZONE29,0.0,0.00,0.00,0.00,8.01,7.33,1.20,1,1,1,6.05,9.96,6.67,7.99,0.00,2.40,2.40,12.34,CeilingDiffuser,DOE-2,5.14,12.53,9.72,2.55,6,2,0,Yes
 ! <Zone Internal Gains/Equipment Information - Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
  Zone Internal Gains, 1FLOOR:ZONE32,411.90,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
- Zone Internal Gains, 1FLOOR:ZONE1,103.45,1.6,64.516,1.550E-002,5.000,1.570,0.000,0.000,0.000,0.000,6.570,No
+ Zone Internal Gains, 1FLOOR:ZONE1,103.45,1.6,64.516,1.550E-002,8.187,3.702,0.000,0.000,0.000,0.000,11.889,No
  Zone Internal Gains, 1FLOOR:ZONE28,1.91,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
  Zone Internal Gains, 1FLOOR:ZONE30,1.87,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
  Zone Internal Gains, 1FLOOR:ZONE10,18.97,0.3,64.516,1.550E-002,5.000,1.570,0.000,0.000,0.000,0.000,6.570,No
@@ -75,10 +75,10 @@ Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,2000,0.10,1000
  People Internal Gains, PEOPLE 1FLOOR:ZONE10,10000,1FLOOR:ZONE10,18.97,0.3,0.3,1.550E-002,64.516,0.300,0.700,AutoCalculate,ACTIVITY SCHEDULE 18893,No,3.8200E-008,0,0
  People Internal Gains, PEOPLE 1FLOOR:ZONE29,7,1FLOOR:ZONE29,5.14,0.0,0.0,0.000,N/A,0.300,0.700,AutoCalculate,ACTIVITY SCHEDULE 18902,No,3.8200E-008,0,0
 ! <Lights Internal Gains - Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
- Lights Internal Gains, 1FLOOR:ZONE1 GENERAL LIGHTING,3355,1FLOOR:ZONE1,103.45,1.6,517.266,5.000,322.581,0.000,0.420,0.180,0.400,1.000,ELECTRIC EQUIPMENT#1Floor:Zone1#GeneralLights,0.000,517.266
+ Lights Internal Gains, 1FLOOR:ZONE1 GENERAL LIGHTING,3355,1FLOOR:ZONE1,103.45,1.6,847.000,8.187,528.211,0.180,0.420,0.180,0.220,1.000,ELECTRIC EQUIPMENT#1Floor:Zone1#GeneralLights,0.000,847.000
  Lights Internal Gains, 1FLOOR:ZONE10 GENERAL LIGHTING,3355,1FLOOR:ZONE10,18.97,0.3,94.862,5.000,322.581,0.000,0.420,0.180,0.400,1.000,ELECTRIC EQUIPMENT#1Floor:Zone10#GeneralLights,0.000,94.862
 ! <ElectricEquipment Internal Gains - Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
- ElectricEquipment Internal Gains, 1FLOOR:ZONE1 EQUIPMENT 1,10001,1FLOOR:ZONE1,103.45,1.6,162.422,1.570,101.290,0.000,0.200,0.000,0.800,ELECTRIC EQUIPMENT#1Floor:Zone1#05,0.000,162.422
+ ElectricEquipment Internal Gains, 1FLOOR:ZONE1 EQUIPMENT 1,10001,1FLOOR:ZONE1,103.45,1.6,383.000,3.702,238.849,0.000,0.200,0.000,0.800,ELECTRIC EQUIPMENT#1Floor:Zone1#05,0.000,383.000
  ElectricEquipment Internal Gains, 1FLOOR:ZONE10 EQUIPMENT 1,10001,1FLOOR:ZONE10,18.97,0.3,29.787,1.570,101.290,0.000,0.200,0.000,0.800,ELECTRIC EQUIPMENT#1Floor:Zone10#05,0.000,29.787
 ! <Shadowing/Sun Position Calculations> [Annual Simulations], Calculation Method,Value {days}, Allowable Number Figures in Shadow Overlap {}, Polygon Clipping Algorithm, Sky Diffuse Modeling Algorithm
 Shadowing/Sun Position Calculations,AverageOverDaysInFrequency,20,15000,SutherlandHodgman,SimpleSkyDiffuseModeling
@@ -113,23 +113,20 @@ AirflowNetwork Model:Control,NoMultizoneOrDistribution
 Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
 ! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
  Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 1FLOOR:ZONE1 IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 8197.03564
- Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 1FLOOR:ZONE1 IDEAL LOADS AIR, User-Specified Maximum Heating Air Flow Rate [m3/s], 3653.00581
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 1FLOOR:ZONE1 IDEAL LOADS AIR, User-Specified Maximum Heating Air Flow Rate [m3/s], 3607.38525
  Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 1FLOOR:ZONE10 IDEAL LOADS AIR, User-Specified Maximum Sensible Heating Capacity [W], 2121.94877
- Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 1FLOOR:ZONE10 IDEAL LOADS AIR, User-Specified Maximum Heating Air Flow Rate [m3/s], 794.21350
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, 1FLOOR:ZONE10 IDEAL LOADS AIR, User-Specified Maximum Heating Air Flow Rate [m3/s], 776.59012
 ! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values
 ! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
 ! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
 ! <Environment:WarmupDays>, NumberofWarmupDays
 Environment,84TYPE_2CORE,WeatherFileRunPeriod,01/01,12/31,Sunday,365,UseWeatherFile,Yes,No ,Yes,Yes,Yes
 Environment:Daylight Saving,No,
-Environment:WarmupDays,  7
+Environment:WarmupDays,  9
 ! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
- Warmup Convergence Information,1FLOOR:ZONE32,RunPeriod: 84TYPE_2CORE,0.2406062881,0.1722939729,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,1FLOOR:ZONE1,RunPeriod: 84TYPE_2CORE,0.2500000000,0.9426189876,Pass,Pass,0.7213886345,4.1533483070,Pass,Pass
- Warmup Convergence Information,1FLOOR:ZONE28,RunPeriod: 84TYPE_2CORE,4.4963114884E-002,3.0000760382E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,1FLOOR:ZONE30,RunPeriod: 84TYPE_2CORE,6.1549096106E-002,4.0537425759E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
- Warmup Convergence Information,1FLOOR:ZONE10,RunPeriod: 84TYPE_2CORE,0.2500000000,0.9929974701,Pass,Pass,0.1102503389,0.1316476148,Pass,Pass
- Warmup Convergence Information,1FLOOR:ZONE29,RunPeriod: 84TYPE_2CORE,0.3312798892,0.2895438113,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
-! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
-Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
-End of Data
+ Warmup Convergence Information,1FLOOR:ZONE32,RunPeriod: 84TYPE_2CORE,0.2556918571,0.1940962418,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,1FLOOR:ZONE1,RunPeriod: 84TYPE_2CORE,0.2791666667,0.9939211371,Pass,Pass,0.1298652730,0.1411763441,Pass,Pass
+ Warmup Convergence Information,1FLOOR:ZONE28,RunPeriod: 84TYPE_2CORE,4.3899136305E-002,2.8856600789E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,1FLOOR:ZONE30,RunPeriod: 84TYPE_2CORE,7.2787100494E-002,5.0057472752E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,1FLOOR:ZONE10,RunPeriod: 84TYPE_2CORE,0.2500000000,0.9946663282,Pass,Pass,0.1369886862,0.1477353332,Pass,Pass
+ Warmup Convergence Information,1FLOOR:ZONE29,RunPeriod: 84TYPE_2CORE,0.6691252365,0.7099345079,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass

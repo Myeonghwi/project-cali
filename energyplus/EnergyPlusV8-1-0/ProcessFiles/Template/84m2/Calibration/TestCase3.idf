@@ -4530,5 +4530,3 @@ Output:Variable,
 
 Output:Diagnostics,
     DisplayAdvancedReportVariables;  !- Key 1
-
-                                       
