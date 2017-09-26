@@ -12,6 +12,9 @@ function DaumPostcode() {
 
             // 법정동명이 있을 경우 추가한다. (법정리는 제외)
             // 법정동의 경우 마지막 문자가 "동/로/가"로 끝난다.
+            if(data.apartment == 'N') {
+                alert("공동주택이 아닙니다.").always();
+            }
             if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){
                 extraRoadAddr += data.bname;
             }
@@ -33,6 +36,9 @@ function DaumPostcode() {
             document.getElementById('roadAddress').value = fullRoadAddr;
             document.getElementById('jibunAddress').value = data.jibunAddress;
 
+            //document.getElementById('apt-name').innerHTML = '공동주택 명 : ' + data.buildingName;
+                openApiApartment(data.sigunguCode + data.roadnameCode);
+
             // 사용자가 '선택 안함'을 클릭한 경우, 예상 주소라는 표시를 해준다.
             if(data.autoRoadAddress) {
                 //예상되는 도로명 주소에 조합형 주소를 추가한다.
@@ -49,3 +55,34 @@ function DaumPostcode() {
         }
     }).open();
 }
+
+function openApiApartment(code) {
+    apikey = "qmtrltW6G7zoOxVeLWJJ%2FE%2BYEnmZeicm4b8mQQmJPnS1ZKDpg1dg1xLMIiKfzleMVxHD%2F9%2FvECvVBINhw2QcEw%3D%3D";
+    apartmentRESTURL = "http://apis.data.go.kr/1611000/AptListService/getRoadnameAptList";
+    apartmentRESTURL += "?serviceKey=" + apikey;
+    apartmentRESTURL += "&loadCode=" + code;
+    apartmentRESTURL += "&pageNo=1";
+    apartmentRESTURL += "&startPage=1";
+    apartmentRESTURL += "&numOfRows=10";
+    apartmentRESTURL += "&pageSize=10";
+    console.log(apartmentRESTURL);
+    $.ajax({
+        url: apartmentRESTURL,
+        dataType: "xml",
+        type: 'GET',
+        success: function(res) {
+            var xml = $(res.responseText).find("items");
+            var listLength = xml.length;
+
+            if(listLength) {
+
+                $(xml).each(function() {
+                    console.log(xml);
+                    //console.log($(this).find("kaptName").text());
+                    //console.log($(this).find("kaptCode").text());
+                
+            })
+        }
+    }
+});
+        }

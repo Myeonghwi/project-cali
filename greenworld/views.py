@@ -5,8 +5,6 @@ from django.contrib.auth.forms import UserCreationForm
 from django.core.urlresolvers import reverse_lazy
 
 # Create your views here.
-
-
 # Home View
 class HomeView(TemplateView):
     template_name = 'index/index.html'

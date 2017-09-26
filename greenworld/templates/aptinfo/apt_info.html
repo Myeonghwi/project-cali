@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
-<body>
     {% block container %}
     <!-- Page Content -->
     <div class="container">
@@ -13,15 +12,15 @@
                         <p>공동주택</p>
                     </div>
                     <div class="stepwizard-step">
-                        <button type="button" class="btn btn-default btn-circle" disabled="disabled">2</button>
+                        <button type="button" class="btn btn-default btn-circle">2</button>
                         <p>자동보정</p>
                     </div>
                     <div class="stepwizard-step">
-                        <button type="button" class="btn btn-default btn-circle" disabled="disabled">3</button>
+                        <button type="button" class="btn btn-default btn-circle">3</button>
                         <p>요소설정</p>
                     </div>
                     <div class="stepwizard-step">
-                        <button type="button" class="btn btn-default btn-circle" disabled="disabled">4</button>
+                        <button type="button" class="btn btn-default btn-circle">4</button>
                         <p>결과분석</p>
                     </div> 
                 </div>
@@ -35,24 +34,29 @@
             <div class="jumbotron hero-spacer">
                 <h3>공동주택 검색</h3>
                 <div class="form-group">
-                    <input type="text" id="postcode" placeholder="우편번호" size="10">
+                    <input type="text" id="postcode" placeholder="우편번호" size="10" readonly="readonly">
                 </div>
                 <div class="form-group">
-                    <input type="text" id="roadAddress" placeholder="도로명주소">
+                    <input type="text" id="roadAddress" placeholder="도로명주소" readonly="readonly">
                 </div>
                 <div class="form-group">
-                    <input type="text" id="jibunAddress" placeholder="지번주소">
+                    <input type="text" id="jibunAddress" placeholder="지번주소" readonly="readonly">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="detailAddress" placeholder="상세주소" readonly="readonly">
                 </div>
                 <a class="btn btn-default btn-lg" role="button" onclick="DaumPostcode()">검색</a>
-                    <span id="guide" style="color:#999"></span>
+                    <span id="guide"></span>
                 <hr>
-                <div id="apt-name"></div>
             </div>
+
+            <div class="jumbotron hero-spacer">
+                <h3>검색 결과</h3>
+
+                <hr>
+            </div>
+
         </div>
     </div>
     <!-- /.container -->
     {% endblock %}
-
-</body>
-
-</html>
