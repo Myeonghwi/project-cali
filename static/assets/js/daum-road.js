@@ -12,9 +12,6 @@ function DaumPostcode() {
 
             // 법정동명이 있을 경우 추가한다. (법정리는 제외)
             // 법정동의 경우 마지막 문자가 "동/로/가"로 끝난다.
-            if(data.apartment == 'N') {
-                alert("공동주택이 아닙니다.").always();
-            }
             if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){
                 extraRoadAddr += data.bname;
             }
@@ -75,14 +72,13 @@ function openApiApartment(code) {
             var listLength = xml.length;
 
             if(listLength) {
-
                 $(xml).each(function() {
                     console.log(xml);
-                    //console.log($(this).find("kaptName").text());
-                    //console.log($(this).find("kaptCode").text());
-                
-            })
+                    console.log($(this).find("kaptName").text());
+                    console.log($(this).find("kaptCode").text());
+                })
+            }
         }
-    }
-});
-        }
+    });
+}
+
