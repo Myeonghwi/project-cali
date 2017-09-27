@@ -17,7 +17,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
 
-from greenworld.views import HomeView, UserCreateView, UserCreateDoneTV
+from cali.views import HomeView, UserCreateView, UserCreateDoneTV
 from aptinfo.views import AptInfoView, MainView
 from calibration.views import CaliView
 from calibration.views import ElectricityView
