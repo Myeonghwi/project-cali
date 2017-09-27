@@ -30,68 +30,63 @@
         <hr>
 
         <div class="row">
-            <!-- Jumbotron Header -->
-            <div class="jumbotron hero-spacer">
-                <h3>공동주택 검색</h3>
-                <hr>
-                <div class="form-group">
-                    <input type="text" id="postcode" placeholder="우편번호" size="10" readonly="readonly">
-                </div>
-                <div class="form-group">
-                    <input type="text" id="roadAddress" placeholder="도로명주소" readonly="readonly">
-                </div>
-                <div class="form-group">
-                    <input type="text" id="jibunAddress" placeholder="지번주소" readonly="readonly">
-                </div>
-                <div class="form-group">
-                    <input type="text" id="detailAddress" placeholder="상세주소">
-                </div>
-                <a class="btn btn-default btn-lg" role="button" onclick="DaumPostcode()">검색</a>
-                <hr>
+            <h3>공동주택 검색</h3>
+            <hr>
+            <div class="form-group">
+                <input type="text" id="postcode" placeholder="우편번호" size="10" readonly="readonly">
+            </div>
+            <div class="form-group">
+                <input type="text" id="roadAddress" placeholder="도로명주소" readonly="readonly">
+            </div>
+            <div class="form-group">
+                <input type="text" id="jibunAddress" placeholder="지번주소" readonly="readonly">
+            </div>
+            <div class="form-group">
+                <input type="text" id="detailAddress" placeholder="상세주소">
+            </div>
+            <a class="btn btn-default" role="button" onclick="DaumPostcode()">검색</a>
+            <hr>
+
+            <h3 data-toggle="collapse" data-target="#demo">검색 결과 <span class="glyphicon glyphicon-chevron-down"></span></h3>
+            <hr>
+            <div class="form-group form-group-sm">
+                <label>자역</label>
+                <input class="form-control" type="text" placeholder="지역">
             </div>
 
-            <div class="jumbotron hero-spacer">
-                <h3>검색 결과</h3>
-                <hr>
-                <div class="form-group form-group-sm">
-                    <label>자역</label>
-                    <input class="form-control" type="text" placeholder="지역">
-                </div>
+            <div class="form-group form-group-sm">
+                <label>공동주택 명</label>
+                <input class="form-control" type="text" placeholder="공동주택 명">
+            </div>
 
-                <div class="form-group form-group-sm">
-                    <label>공동주택 명</label>
-                    <input class="form-control" type="text" placeholder="공동주택 명">
-                </div>
+            <div class="form-group form-group-sm">
+                <label>법정동 주소</label>
+                <input class="form-control" type="text" placeholder="법정동 주소">
+            </div>
 
-                <div class="form-group form-group-sm">
-                    <label>법정동 주소</label>
-                    <input class="form-control" type="text" placeholder="법정동 주소">
-                </div>
+            <div class="form-group form-group-sm">
+                <label>난방방식</label>
+                <input class="form-control" type="text" placeholder="난방방식">
+            </div>
 
-                <div class="form-group form-group-sm">
-                    <label>난방방식</label>
-                    <input class="form-control" type="text" placeholder="난방방식">
-                </div>
+            <div class="form-group form-group-sm">
+                <label>세대수</label>
+                <input class="form-control" type="text" placeholder="세대수">
+            </div>
 
-                <div class="form-group form-group-sm">
-                    <label>세대수</label>
-                    <input class="form-control" type="text" placeholder="세대수">
-                </div>
+            <div class="form-group form-group-sm">
+                <label>동수</label>
+                <input class="form-control" type="text" placeholder="동수">
+            </div>
 
-                <div class="form-group form-group-sm">
-                    <label>동수</label>
-                    <input class="form-control" type="text" placeholder="동수">
-                </div>
+            <div class="form-group form-group-sm">
+                <label>복도유형</label>
+                <input class="form-control" type="text" placeholder="복도유형">
+            </div>
 
-                <div class="form-group form-group-sm">
-                    <label>복도유형</label>
-                    <input class="form-control" type="text" placeholder="복도유형">
-                </div>
-
-                <div class="form-group form-group-sm">
-                    <label>관리비부과 면적 (m2)</label>
-                    <input class="form-control" type="text" placeholder="관리비부과 면적 (m2)">
-                </div>
+            <div class="form-group form-group-sm">
+                <label>관리비부과 면적 (m2)</label>
+                <input class="form-control" type="text" placeholder="관리비부과 면적 (m2)">
             </div>
         </div>
 

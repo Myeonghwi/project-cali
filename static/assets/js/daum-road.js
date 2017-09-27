@@ -34,7 +34,8 @@ function DaumPostcode() {
             document.getElementById('jibunAddress').value = data.jibunAddress;
 
             //document.getElementById('apt-name').innerHTML = '공동주택 명 : ' + data.buildingName;
-                openApiApartment(data.sigunguCode + data.roadnameCode);
+            console.log(data.singunguCode + data.roadnameCode)
+            openApiApartment(data.sigunguCode + data.roadnameCode);
 
             // 사용자가 '선택 안함'을 클릭한 경우, 예상 주소라는 표시를 해준다.
             if(data.autoRoadAddress) {
