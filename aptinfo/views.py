@@ -1,6 +1,6 @@
 import requests
 import xmltodict
-import cali.settings as setting
+import greenworld.settings as setting
 from aptinfo.controller import parse_xml
 
 from django.views.generic.base import TemplateView
