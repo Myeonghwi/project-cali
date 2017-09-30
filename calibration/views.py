@@ -8,9 +8,6 @@ from .forms import CaliEnergyForm
 from .optimization import cvrmse_optimization
 
 
-class CaliView(TemplateView):
-    template_name = 'calibration/calibration.html'
-
 # Create your views here.
 class ElectricityView(FormView):
     form_class = CaliEnergyForm
@@ -51,3 +48,6 @@ class ElectricityView(FormView):
 
         pass
 
+
+class CaliView(TemplateView):
+    template_name = 'calibration/calibration.html'
