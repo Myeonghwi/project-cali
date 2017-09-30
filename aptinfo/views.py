@@ -18,12 +18,24 @@ class AptInfoView(View):
 
     def post(self, request, *args, **kwargs):
 
-        apt_url = "http://apis.data.go.kr/1611000/AptListService/getRoadnameAptList?serviceKey=qmtrltW6G7zoOxVeLWJJ%2FE%2BYEnmZeicm4b8mQQmJPnS1ZKDpg1dg1xLMIiKfzleMVxHD%2F9%2FvECvVBINhw2QcEw%3D%3D&loadCode=431113236035&pageNo=1&startPage=1&numOfRows=10&pageSize=10"
+        SITE = 'http://apis.data.go.kr'
+        PAGE = 'pageNo=1&startPage=1&numOfRows=10&pageSize=10'
+        KEY = 'qmtrltW6G7zoOxVeLWJJ%2FE%2BYEnmZeicm4b8mQQmJPnS1ZKDpg1dg1xLMIiKfzleMVxHD%2F9%2FvECvVBINhw2QcEw%3D%3D'
+
+        if 'road_code' in request.POST:
+            road_code = request.POST['road_code']
+        else:
+            return render(request, self.template_name, {'response': '도로명 코드를 찾지못했습니다.'})
+
+        apt_url = f'{SITE}/1611000/AptListService/getRoadnameAptList?serviceKey={KEY}&loadCode={road_code}&{PAGE}'
+
         res = requests.get(apt_url)
 
         apt_dict = parse_xml(xmltodict.parse(res.text))
 
-        return render(request, self.template_name)
+        print(apt_dict)
+
+        return render(request, self.template_name, {'apt_dict': apt_dict})
 
 
 # 추후에 옮겨야함

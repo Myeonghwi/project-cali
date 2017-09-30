@@ -30,12 +30,9 @@ function DaumPostcode() {
 
             // 우편번호와 주소 정보를 해당 필드에 넣는다.
             document.getElementById('postcode').value = data.zonecode; //5자리 새우편번호 사용
-            document.getElementById('roadAddress').value = fullRoadAddr;
-            document.getElementById('jibunAddress').value = data.jibunAddress;
-
-            //document.getElementById('apt-name').innerHTML = '공동주택 명 : ' + data.buildingName;
-            console.log(data.singunguCode + data.roadnameCode)
-            openApiApartment(data.sigunguCode + data.roadnameCode);
+            document.getElementById('road_address').value = fullRoadAddr;
+            document.getElementById('jibun_address').value = data.jibunAddress;
+            document.getElementById('road_code').value = data.sigunguCode + data.roadnameCode
 
             // 사용자가 '선택 안함'을 클릭한 경우, 예상 주소라는 표시를 해준다.
             if(data.autoRoadAddress) {
@@ -53,33 +50,3 @@ function DaumPostcode() {
         }
     }).open();
 }
-
-function openApiApartment(code) {
-    apikey = "qmtrltW6G7zoOxVeLWJJ%2FE%2BYEnmZeicm4b8mQQmJPnS1ZKDpg1dg1xLMIiKfzleMVxHD%2F9%2FvECvVBINhw2QcEw%3D%3D";
-    apartmentRESTURL = "http://apis.data.go.kr/1611000/AptListService/getRoadnameAptList";
-    apartmentRESTURL += "?serviceKey=" + apikey;
-    apartmentRESTURL += "&loadCode=" + code;
-    apartmentRESTURL += "&pageNo=1";
-    apartmentRESTURL += "&startPage=1";
-    apartmentRESTURL += "&numOfRows=10";
-    apartmentRESTURL += "&pageSize=10";
-    console.log(apartmentRESTURL);
-    $.ajax({
-        url: apartmentRESTURL,
-        dataType: "xml",
-        type: 'GET',
-        success: function(res) {
-            var xml = $(res.responseText).find("items");
-            var listLength = xml.length;
-
-            if(listLength) {
-                $(xml).each(function() {
-                    console.log(xml);
-                    console.log($(this).find("kaptName").text());
-                    console.log($(this).find("kaptCode").text());
-                })
-            }
-        }
-    });
-}
-

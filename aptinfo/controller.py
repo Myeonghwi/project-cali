@@ -10,8 +10,17 @@ def parse_xml(xml_dict):
     apt_dict = dict()
     apt_ = xml_dict['response']['body']['items']['item']
 
-    for apt in apt_:
-        apt_dict['kaptCode'] = apt['kaptCode']
-        apt_dict['kaptName'] = apt['kaptName']
+    print (apt_)
+
+    if len(apt_) > 2:
+        for apt in apt_:
+            apt_dict.update({'kaptCode': apt['kaptCode']})
+            apt_dict.update({'kaptName': apt['kaptName']})
+
+    elif len(apt_) <= 2:
+        apt_dict['kaptCode'] = apt_['kaptCode']
+        apt_dict['kaptName'] = apt_['kaptName']
+
+    print (apt_dict)
 
     return apt_dict

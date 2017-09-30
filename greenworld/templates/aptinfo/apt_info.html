@@ -30,20 +30,29 @@
         <hr>
 
         <div class="row">
-            <h3>공동주택 검색</h3>
+            <form action="/simulation/apt_info/" method="post"> {% csrf_token %}
+                <h3>공동주택 검색</h3>
+                <hr>
+                <div class="form-group">
+                    <input type="text" id="postcode" placeholder="우편번호" size="10" readonly="readonly">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="road_address" placeholder="도로명주소" readonly="readonly">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="jibun_address" placeholder="지번주소" readonly="readonly">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="road_code" name="road_code" placeholder="도로명코드" readonly="readonly">
+                </div>
+                <a class="btn btn-default" role="button" onclick="DaumPostcode()">검색</a>
+                <button type="submit" class="btn btn-primary">적용</button>
+                {{ apt_dict }}
+            </form>
             <hr>
-            <div class="form-group">
-                <input type="text" id="postcode" placeholder="우편번호" size="10" readonly="readonly">
-            </div>
-            <div class="form-group">
-                <input type="text" id="roadAddress" placeholder="도로명주소" readonly="readonly">
-            </div>
-            <div class="form-group">
-                <input type="text" id="jibunAddress" placeholder="지번주소" readonly="readonly">
-            </div>
-            <a class="btn btn-default" role="button" onclick="DaumPostcode()">검색</a>
-            <hr>
+        </div>
 
+        <div class="row">
             <h3 data-toggle="collapse" data-target="#demo">검색 결과 <span class="glyphicon glyphicon-chevron-down"></span></h3>
             <hr>
             <div class="form-group form-group-sm">
