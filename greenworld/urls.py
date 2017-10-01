@@ -19,8 +19,7 @@ from django.contrib.auth import views as auth_views
 
 from greenworld.views import HomeView, UserCreateView, UserCreateDoneTV
 from aptinfo.views import AptInfoView, MainView
-from calibration.views import CaliView
-from calibration.views import ElectricityView
+from calibration.views import CalibrationView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -34,6 +33,6 @@ urlpatterns = [
     url(r'^accounts/register/done/$', UserCreateDoneTV.as_view(), name='register_done'),
 
     url(r'^simulation/apt_info/$', AptInfoView.as_view(), name='apt_info'),
-    url(r'^simulation/calibration/$', CaliView.as_view(), name='calibration'),
+    url(r'^simulation/calibration/$', CalibrationView.as_view(), name='calibration'),
     url(r'^simulation/main/$', MainView.as_view(), name='main'),
 ]

@@ -29,7 +29,7 @@
         </div>
 
         <div class="row">
-            <form action="." method="post"> {% csrf_token %}
+            <form action="/simulation/calibration/" method="post"> {% csrf_token %}
                 <h3>에너지 사용정보 입력</h3>
                 <hr>
                 <table id="cali-table" class="table">
@@ -43,63 +43,63 @@
                     <tbody>
                         <tr>
                             <td>1월</td>
-                            <td><input type="text" class="form-control" id="elec_1" placeholder="1월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_1" placeholder="1월 가스 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_1" placeholder="1월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_1" placeholder="1월 가스 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>2월</td>
-                            <td><input type="text" class="form-control" id="elec_2" placeholder="2월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_2" placeholder="2월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_2" placeholder="2월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_2" placeholder="2월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>3월</td>
-                            <td><input type="text" class="form-control" id="elec_3" placeholder="3월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_3" placeholder="3월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_3" placeholder="3월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_3" placeholder="3월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>4월</td>
-                            <td><input type="text" class="form-control" id="elec_4" placeholder="4월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_4" placeholder="4월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_4" placeholder="4월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_4" placeholder="4월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>5월</td>
-                            <td><input type="text" class="form-control" id="elec_5" placeholder="5월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_5" placeholder="5월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_5" placeholder="5월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_5" placeholder="5월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>6월</td>
-                            <td><input type="text" class="form-control" id="elec_6" placeholder="6월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_6" placeholder="6월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_6" placeholder="6월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_6" placeholder="6월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>7월</td>
-                            <td><input type="text" class="form-control" id="elec_7" placeholder="7월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_7" placeholder="7월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_7" placeholder="7월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_7" placeholder="7월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>8월</td>
-                            <td><input type="text" class="form-control" id="elec_8" placeholder="8월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_8" placeholder="8월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_8" placeholder="8월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_8" placeholder="8월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>9월</td>
-                            <td><input type="text" class="form-control" id="elec_9" placeholder="9월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_9" placeholder="9월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_9" placeholder="9월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_9" placeholder="9월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>10월</td>
-                            <td><input type="text" class="form-control" id="elec_10" placeholder="10월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_10" placeholder="10월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_10" placeholder="10월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_10" placeholder="10월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>11월</td>
-                            <td><input type="text" class="form-control" id="elec_11" placeholder="11월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_11" placeholder="11월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_11" placeholder="11월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_11" placeholder="11월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                         <tr>
                             <td>12월</td>
-                            <td><input type="text" class="form-control" id="elec_12" placeholder="12월 전기 에너지 사용량 입력" data-required="true"></td>
-                            <td><input type="text" class="form-control" id="gas_12" placeholder="12월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="elec_12" placeholder="12월 전기 에너지 사용량 입력" data-required="true"></td>
+                            <td><input type="text" class="form-control" name="gas_12" placeholder="12월 전기 에너지 사용량 입력" data-required="true"></td>
                         </tr>
                     </tbody>
                     <tfoot>
@@ -160,6 +160,53 @@
 
                 <hr>
                 <h3 data-toggle="collapse" data-target="#"><span class="glyphicon glyphicon-chevron-down"></span>  생애주기금액 및 이산화탄소 가정</h3>
+                <div class="row">
+                    <div class="form-group form-group-sm">
+                        <div class="col-sm-6">
+                            <label>시작년도</label>
+                            <input type="text" class="form-control" id="start_at" name="start_at" placeholder="2017" data-required="true">
+                        </div>
+                    </div>
+
+                    <div class="form-group form-group-sm">
+                        <div class="col-sm-6">
+                            <label>분석기간</label>
+                            <input type="text" class="form-control" name="period" placeholder="40" data-required="true">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="form-group form-group-sm">
+                            <label>이자</label>
+                            <input type="text" class="form-control" name="interest_rate" placeholder="40" data-required="true">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="form-group form-group-sm">
+                            <label>전기</label>
+                            <input type="text" class="form-control" name="elec_rate" placeholder="40" data-required="true">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="form-group form-group-sm">
+                            <label>가스</label>
+                            <input type="text" class="form-control" name="gas_rate" placeholder="40" data-required="true">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="form-group form-group-sm">
+                            <label>온실가스</label>
+                            <input type="text" class="form-control" name="green_rate" placeholder="40" data-required="true">
+                        </div>
+                    </div>
+                </div>
+                        <button type="submit" class="btn btn-default">적용</button>
+        <button type="button" class="btn btn-default">다음</button>
+
                 <hr>
             </form>
             <h3 data-toggle="collapse" data-target="#area-chart"><span class="glyphicon glyphicon-chevron-down"></span>  결과</h3>
@@ -168,9 +215,6 @@
 
             <div id="area-chart"></div>
         </div>
-
-        <button type="button" class="btn btn-default">적용</button>
-        <button type="button" class="btn btn-default">다음</button>
 
     </div>
     {% endblock %}

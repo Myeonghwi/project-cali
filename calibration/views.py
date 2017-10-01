@@ -9,45 +9,34 @@ from .optimization import cvrmse_optimization
 
 
 # Create your views here.
-class ElectricityView(FormView):
-    form_class = CaliEnergyForm
+class CalibrationView(TemplateView):
     template_name = 'calibration/calibration.html'
 
-    year_electricity = []
-    list_electricity = ['electricity_jan', 'electricity_feb', 'electricity_mar', 'electricity_apr',
-                        'electricity_may', 'electricity_jun', 'electricity_jul', 'electricity_aug',
-                        'electricity_sep', 'electricity_oct', 'electricity_nov', 'electricity_dec']
+    def post(self, request, *args, **kwargs):
 
-    year_heating = []
-    list_heating = ['heating_jan', 'heating_feb', 'heating_mar', 'heating_apr',
-                    'heating_may', 'heating_jun', 'heating_jul', 'heating_aug',
-                    'heating_sep', 'heating_oct', 'heating_nov', 'heating_dec']
+        elec_list = []
+        gas_list = []
 
-    def form_valid(self, form):
+        for i in range(1, 12):
+            elec_code = f'elec_{i}'
+            gas_code = f'gas_{i}'
+            elec_list.append(request.POST[elec_code])
+            gas_list.append(request.POST[gas_code])
+            
+        rate_dict = {
+            'start_at': request.POST['start_at'],
+            'period': request.POST['period'],
+            'interest_rate': request.POST['interest_rate'],
+            'elec_rate': request.POST['elec_rate'],
+            'gas_rate': request.POST['gas_rate'],
+            'green_rate': request.POST['green_rate']
+        }
 
-        i = 0
-        for elements in self.list_electricity:
-            self.year_electricity[i] = float(self.request.POST[elements])
-            i += 1
+        self.auto_calc_rate(rate_dict)
 
-        i = 0
-        for elements in self.list_heating:
-            self.year_heating[i] = float(self.request.POST[elements])
-            i += 1
+        return render(request, self.template_name)
 
-        context = {}
-        context['form'] = form
-        context['year_electricity'] = self.year_electricity
-        context['year_heating'] = self.year_heating
 
-        cvrmse_optimization(self.year_electricity, self.year_heating)
-
-        return render(self.request, self.template_name, context)
-
-    def form_invalid(self, form):
-
+    def auto_calc_rate(self, rate_dict):
         pass
 
-
-class CaliView(TemplateView):
-    template_name = 'calibration/calibration.html'
