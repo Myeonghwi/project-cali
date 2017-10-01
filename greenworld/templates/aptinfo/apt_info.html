@@ -46,81 +46,124 @@
                     <input type="text" id="road_code" name="road_code" placeholder="도로명코드" readonly="readonly">
                 </div>
                 <a class="btn btn-default" role="button" onclick="DaumPostcode()">검색</a>
-                <button type="submit" class="btn btn-primary">적용</button>
+                <button type="submit" class="btn btn-default">적용</button>
                 {{ apt_dict }}
             </form>
-            <hr>
+            <div class="row">
+                <div class="span12">
+                   <hr>
+                </div>
+            </div>
         </div>
 
         <div class="row">
             <form action="/simulation/apt_info" method="get">
                 <h3 data-toggle="collapse" data-target="#demo">검색 결과 <span class="glyphicon glyphicon-chevron-down"></span></h3>
-                <button type="submit" class="btn btn-primary">적용</button>
+                <button type="submit" class="btn btn-default">적용</button>
                 <input type="text" id="kapt_code" name="kapt_code" placeholder="아파트 코드">
-                <hr>
-                <div class="form-group form-group-sm">
-                    <label>자역</label>
-                    <input class="form-control" type="text" placeholder="지역">
+                <div class="row">
+                    <div class="span12">
+                       <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                            <label>자역</label>
+                            <input class="form-control" type="text" placeholder="지역">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                            <label>공동주택 명</label>
+                            <input class="form-control" type="text" placeholder="공동주택 명" value="{{ apt_pack.name }}">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                            <label>법정동 주소</label>
+                            <input class="form-control" type="text" placeholder="법정동 주소" value="{{ apt_pack.addr }}">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="form-group form-group-sm">
-                    <label>공동주택 명</label>
-                    <input class="form-control" type="text" placeholder="공동주택 명" value="{{ apt_pack.name }}">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                            <label>난방방식</label>
+                            <input class="form-control" type="text" placeholder="난방방식" value="{{ apt_pack.heat }}">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                            <label>복도유형</label>
+                            <input class="form-control" type="text" placeholder="복도유형" value="{{ apt_pack.hall }}">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                            <label>세대수</label>
+                            <input class="form-control" type="text" placeholder="세대수" value="{{ apt_pack.ho_cnt }}">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="form-group form-group-sm">
-                    <label>법정동 주소</label>
-                    <input class="form-control" type="text" placeholder="법정동 주소" value="{{ apt_pack.addr }}">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                            <label>동수</label>
+                            <input class="form-control" type="text" placeholder="동수" value="{{ apt_pack.dong_cnt }}">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                            <label>시공사</label>
+                            <input class="form-control" type="text" placeholder="시공사" value="{{ apt_pack.company }}">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="form-group form-group-sm">
+                            <label>사용승인일</label>
+                            <input class="form-control" type="text" placeholder="사용승인일" value="{{ apt_pack.date }}">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="form-group form-group-sm">
-                    <label>난방방식</label>
-                    <input class="form-control" type="text" placeholder="난방방식" value="{{ apt_pack.heat }}">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group form-group-sm">
+                            <label>세대현황 (~60 m2)</label>
+                            <input class="form-control" type="text" value="{{ apt_pack.area_60 }}">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group form-group-sm">
+                            <label>세대현황 (60 ~ 85 m2)</label>
+                            <input class="form-control" type="text" value="{{ apt_pack.area_85 }}">
+                        </div>
+                    </div>
                 </div>
 
-                <div class="form-group form-group-sm">
-                    <label>복도유형</label>
-                    <input class="form-control" type="text" placeholder="복도유형" value="{{ apt_pack.hall }}">
-                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group form-group-sm">
+                            <label>세대현황 (85 ~ 135 m2)</label>
+                            <input class="form-control" type="text" value="{{ apt_pack.area_135 }}">
+                        </div>
+                        </div>
 
-                <div class="form-group form-group-sm">
-                    <label>세대수</label>
-                    <input class="form-control" type="text" placeholder="세대수" value="{{ apt_pack.ho_cnt }}">
-                </div>
-
-                <div class="form-group form-group-sm">
-                    <label>동수</label>
-                    <input class="form-control" type="text" placeholder="동수" value="{{ apt_pack.dong_cnt }}">
-                </div>
-
-                <div class="form-group form-group-sm">
-                    <label>시공사</label>
-                    <input class="form-control" type="text" placeholder="시공사" value="{{ apt_pack.company }}">
-                </div>
-
-                <div class="form-group form-group-sm">
-                    <label>사용승인일</label>
-                    <input class="form-control" type="text" placeholder="사용승인일" value="{{ apt_pack.date }}">
-                </div>
-
-                <div class="form-group form-group-sm">
-                    <label>세대현황 (~60 m2)</label>
-                    <input class="form-control" type="text" value="{{ apt_pack.area_60 }}">
-                </div>
-
-                <div class="form-group form-group-sm">
-                    <label>세대현황 (60 ~ 85 m2)</label>
-                    <input class="form-control" type="text" value="{{ apt_pack.area_85 }}">
-                </div>
-
-                <div class="form-group form-group-sm">
-                    <label>세대현황 (85 ~ 135 m2)</label>
-                    <input class="form-control" type="text" value="{{ apt_pack.area_135 }}">
-                </div>
-
-                <div class="form-group form-group-sm">
-                    <label>세대현황 (135 m2 초과)</label>
-                    <input class="form-control" type="text" value="{{ apt_pack.area_136 }}">
+                    <div class="col-sm-6">
+                        <div class="form-group form-group-sm">
+                            <label>세대현황 (135 m2 초과)</label>
+                            <input class="form-control" type="text" value="{{ apt_pack.area_136 }}">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="form-group form-group-sm">
