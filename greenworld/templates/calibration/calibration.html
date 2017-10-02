@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
-<body>
+
     {% block container %}
     <!-- Page Content -->
     <div class="container">
@@ -204,20 +204,11 @@
                         </div>
                     </div>
                 </div>
-                        <button type="submit" class="btn btn-default">적용</button>
-        <button type="button" class="btn btn-default">다음</button>
-
+                <button type="submit" class="btn btn-default">적용</button>
+                <button type="button" class="btn btn-default">다음</button>
                 <hr>
             </form>
-            <h3 data-toggle="collapse" data-target="#area-chart"><span class="glyphicon glyphicon-chevron-down"></span>  결과</h3>
-            <hr>
-            <h3 class="text-primary text-center">자동보정 결과</h3>
-
-            <div id="area-chart"></div>
         </div>
-
     </div>
     {% endblock %}
     <!-- /.container -->
-
-</body>

@@ -10,6 +10,7 @@ from .optimization import cvrmse_optimization
 
 # Create your views here.
 class CalibrationView(TemplateView):
+
     template_name = 'calibration/calibration.html'
 
     def post(self, request, *args, **kwargs):
@@ -22,7 +23,7 @@ class CalibrationView(TemplateView):
             gas_code = f'gas_{i}'
             elec_list.append(request.POST[elec_code])
             gas_list.append(request.POST[gas_code])
-            
+
         rate_dict = {
             'start_at': request.POST['start_at'],
             'period': request.POST['period'],
@@ -40,3 +41,6 @@ class CalibrationView(TemplateView):
     def auto_calc_rate(self, rate_dict):
         pass
 
+class CalibrationResultView(TemplateView):
+
+    template_name = 'calibration/calibration_result.html'

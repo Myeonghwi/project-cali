@@ -25,6 +25,9 @@
     <!-- Vue.js -->
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
 
+    <!--axios-->
+    <script src="//unpkg.com/axios/dist/axios.min.js"></script>
+
     <!-- Custom CSS -->
     <link href="{% static 'assets/css/base.css' %}" rel="stylesheet">
     <link href="{% static 'assets/css/step-wizard.css' %}" rel="stylesheet">
@@ -121,28 +124,19 @@
     <!-- /.container -->
 
 
+    {% block js %}
 
-    <!--axios-->
-    <script src="//unpkg.com/axios/dist/axios.min.js"></script>
 
 
     <!-- Cross Domain Solution -->
     <!--<script src="{% static 'assets/js/jquery.xdomainajax.js' %}"></script>-->
     <!--<script src="{% static 'assets/js/xml2json.js' %}"></script>-->
 
-
-    <!-- Morris Chart -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js'></script>
-
-    <!--<script src="{% static 'assets/js/index.js' %}"></script>-->
-
-    <!-- Daum API -->
-    <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
-    <script src="{% static 'assets/js/daum-road.js' %}"></script>
+    <script src="{% static 'assets/js/index.js' %}"></script>
 
     <!-- apt_info javascript-->
     <!--<script src="{% static 'assets/js/apt_info.js' %}"></script>-->
+    {% endblock %}
 
 
 </body>

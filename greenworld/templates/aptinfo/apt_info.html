@@ -178,3 +178,12 @@
     </div>
     <!-- /.container -->
     {% endblock %}
+
+    {% block js %}
+        <!-- apt_info javascript-->
+        <script src="{% static 'assets/js/apt_info.js' %}"></script>
+
+        <!-- Daum API -->
+        <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
+        <script src="{% static 'assets/js/daum-road.js' %}"></script>
+    {% endblock %}

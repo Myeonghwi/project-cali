@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+    {% block container %}
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="stepwizard">
+                <div class="stepwizard-row">
+                    <div class="stepwizard-step">
+                        <button type="button" class="btn btn-default btn-circle">1</button>
+                        <p>공동주택</p>
+                    </div>
+                    <div class="stepwizard-step">
+                        <button type="button" class="btn btn-primary btn-circle-selected">2</button>
+                        <p>자동보정</p>
+                    </div>
+                    <div class="stepwizard-step">
+                        <button type="button" class="btn btn-default btn-circle" disabled="disabled">3</button>
+                        <p>요소설정</p>
+                    </div>
+                    <div class="stepwizard-step">
+                        <button type="button" class="btn btn-default btn-circle" disabled="disabled">4</button>
+                        <p>결과분석</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3>자동보정 결과</h3>
+            <hr>
+            <div id="elec-area-chart"></div>
+            <div id="gas-area-chart"></div>
+            <button type="button" class="btn btn-default">이전</button>
+            <button type="button" class="btn btn-default">다음</button>
+
+        </div>
+
+    </div>
+    {% endblock %}
+    <!-- /.container -->
+
+    {% block js %}
+    <!-- Morris Chart -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.0/morris.min.js'></script>
+
+    <script src="{% static 'assets/js/calibration.js' %}"></script>
+    {% endblock %}
