@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
-<body>
     {% block container %}
     <!-- Page Content -->
     <div class="container">
@@ -21,7 +20,7 @@
                         <p>요소설정</p>
                     </div>
                     <div class="stepwizard-step">
-                        <button type="button" class="btn btn-default btn-circle" disabled="disabled">4</button>
+                        <button type="button" class="btn btn-default btn-circle">4</button>
                         <p>결과분석</p>
                     </div> 
                 </div>
@@ -34,20 +33,15 @@
             <!-- Jumbotron Header Insulation-->
             <div class="jumbotron simulation">
                 <div class="form-group">
-                    <input type="text" id="jibunAddress" placeholder="단열 위치">
+                    <input type="text" name="insulation_type" placeholder="단열 종류">
                 </div>
                 <div class="form-group">
-                    <input type="text" id="postcode" placeholder="단열재 종류">
+                    <input type="text" name="insulation_thickness" placeholder="단열재 두께">
                 </div>
                 <div class="form-group">
-                    <input type="text" id="roadAddress" placeholder="단열재 두께">
+                    <input type="text" name="insulation_conductivity" placeholder="단열재 열전도율">
                 </div>
                 <a class="btn btn-default btn-lg" role="button">단열재 선택</a>
-                <ul class="hide">
-                    <li>메뉴1-1</li>
-                    <li>메뉴1-2</li>
-                    <li>메뉴1-3</li>
-                </ul>
             </div>
 
             <!-- Jumbotron Header Window-->
@@ -95,5 +89,3 @@
     </div>
     {% endblock %}
     <!-- /.container -->
-
-</body>
