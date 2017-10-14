@@ -18,8 +18,10 @@ from django.contrib import admin
 from django.contrib.auth import views as auth_views
 
 from greenworld.views import HomeView, UserCreateView, UserCreateDoneTV
-from aptinfo.views import AptInfoView, MainView
+from accounts.views import AccountView
+from aptinfo.views import AptInfoView
 from calibration.views import CalibrationView, CalibrationResultView
+from simulator.views import SimulatorView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -27,13 +29,17 @@ urlpatterns = [
     url(r'^$', HomeView.as_view(), name='index'),
 
     # account
-    url(r'^accounts/login/$', auth_views.login),
-    url(r'^accounts/logout/$', auth_views.logout),
-    url(r'^accounts/register/$', UserCreateView.as_view(), name='register'),
-    url(r'^accounts/register/done/$', UserCreateDoneTV.as_view(), name='register_done'),
+    url(r'^account/profile$', AccountView.as_view(), name='account'),
 
+    # registration
+    url(r'^login/$', auth_views.login),
+    url(r'^logout/$', auth_views.logout),
+    url(r'^register/$', UserCreateView.as_view(), name='register'),
+    url(r'^register/done/$', UserCreateDoneTV.as_view(), name='register_done'),
+
+    # main simulation
     url(r'^simulation/apt_info/$', AptInfoView.as_view(), name='apt_info'),
     url(r'^simulation/calibration/$', CalibrationView.as_view(), name='calibration'),
     url(r'^simulation/calibration/result/$', CalibrationResultView.as_view(), name='calibration_result'),
-    url(r'^simulation/main/$', MainView.as_view(), name='main'),
+    url(r'^simulation/main/$', SimulatorView.as_view(), name='main'),
 ]

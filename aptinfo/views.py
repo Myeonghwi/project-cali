@@ -2,7 +2,6 @@ import requests
 import xmltodict
 import greenworld.settings as setting
 
-from django.views.generic.base import TemplateView
 from django.views.generic import View
 from django.shortcuts import render
 
@@ -113,8 +112,3 @@ class AptInfoView(View):
         print(apt_dict)
 
         return apt_dict
-
-
-# TODO: 추후에 옮겨야함
-class MainView(TemplateView):
-    template_name = 'simulator/simulator.html'
