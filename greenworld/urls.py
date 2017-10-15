@@ -21,7 +21,7 @@ from greenworld.views import HomeView, UserCreateView, UserCreateDoneTV
 from accounts.views import AccountView
 from aptinfo.views import AptInfoView
 from calibration.views import CalibrationView, CalibrationResultView
-from simulator.views import SimulatorView
+from simulator.views import SimulatorView, ResultView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -42,4 +42,5 @@ urlpatterns = [
     url(r'^simulation/calibration/$', CalibrationView.as_view(), name='calibration'),
     url(r'^simulation/calibration/result/$', CalibrationResultView.as_view(), name='calibration_result'),
     url(r'^simulation/main/$', SimulatorView.as_view(), name='main'),
+    url(r'^simulation/result/$', ResultView.as_view(), name='result')
 ]

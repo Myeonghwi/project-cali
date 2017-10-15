@@ -53,3 +53,19 @@ legend {
         padding: 15px 0;
     }
 }
+
+body div#fullContainer {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+
+body div#fullContainer #content-wrap {
+  background: #ffffff;
+  bottom: 0;
+  box-shadow: -5px 0px 8px #000000;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

@@ -8,3 +8,11 @@ class SimulatorView(View):
 
     def get(self, request):
         return render(request, self.template_name)
+
+
+class ResultView(View):
+
+    template_name = 'simulator/result.html'
+
+    def get(self, request):
+        return render(request, self.template_name)
