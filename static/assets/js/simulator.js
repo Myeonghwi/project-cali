@@ -4,3 +4,24 @@ $('#insualtion_modal').on('shown.bs.modal', function() {
   //Make sure the z-index is higher than the backdrop
   $(this).css("z-index", parseInt($('.modal-backdrop').css('z-index')) + 1);
 });
+
+$('#window_modal').on('shown.bs.modal', function() {
+  //Make sure the modal and backdrop are siblings (changes the DOM)
+  $(this).before($('.modal-backdrop'));
+  //Make sure the z-index is higher than the backdrop
+  $(this).css("z-index", parseInt($('.modal-backdrop').css('z-index')) + 1);
+});
+
+$('#lighting_modal').on('shown.bs.modal', function() {
+  //Make sure the modal and backdrop are siblings (changes the DOM)
+  $(this).before($('.modal-backdrop'));
+  //Make sure the z-index is higher than the backdrop
+  $(this).css("z-index", parseInt($('.modal-backdrop').css('z-index')) + 1);
+});
+
+$('#shading_modal').on('shown.bs.modal', function() {
+  //Make sure the modal and backdrop are siblings (changes the DOM)
+  $(this).before($('.modal-backdrop'));
+  //Make sure the z-index is higher than the backdrop
+  $(this).css("z-index", parseInt($('.modal-backdrop').css('z-index')) + 1);
+});

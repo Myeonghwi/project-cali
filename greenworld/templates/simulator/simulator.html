@@ -36,23 +36,23 @@
                     <input type="text" name="insulation_type" placeholder="단열재 종류">
                 </div>
                 <div class="form-group">
-                    <input type="text" name="insulation_thickness" placeholder="단열재 두께">
+                    <input type="text" name="insulation_thickness" placeholder="두께">
                 </div>
                 <div class="form-group">
-                    <input type="text" name="insulation_conductivity" placeholder="단열재 열전도율">
+                    <input type="text" name="insulation_conductivity" placeholder="열전도율">
                 </div>
                 <div class="form-group">
-                    <input type="text" name="window_conductivity" placeholder="단열재 밀도">
+                    <input type="text" name="window_conductivity" placeholder="밀도">
                 </div>
                 <div class="form-group">
-                    <input type="text" name="window_conductivity" placeholder="단열재 열용량">
+                    <input type="text" name="window_conductivity" placeholder="열용량">
                 </div>
                 <a class="btn btn-default btn-lg" data-toggle="modal" data-target="#insualtion_modal">단열재 정보 선택</a>
             </div>
         </div>
 
         <div class="row">
-            <!-- Jumbotron Header Insulation-->
+            <!-- Jumbotron Header Window-->
             <div class="jumbotron simulation">
                 <div class="form-group">
                     <input type="text" name="window_type" placeholder="창호 종류">
@@ -69,7 +69,54 @@
                 <a class="btn btn-default btn-lg" data-toggle="modal" data-target="#window_modal">창호 정보 선택</a>
             </div>
         </div>
+
+        <div class="row">
+            <!-- Jumbotron Header Lighting-->
+            <div class="jumbotron simulation">
+                <div class="form-group">
+                    <input type="text" name="lighting_type" placeholder="조명 종류">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="lighting_setup_type" placeholder="설치형태">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="lighting_energy" placeholder="에너지소비량">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="lighting_return_air_fraction" placeholder="순환공기 방사율">
+                </div>
+                <a class="btn btn-default btn-lg" data-toggle="modal" data-target="#lighting_modal">창호 정보 선택</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Jumbotron Header Window-->
+            <div class="jumbotron simulation">
+                <div class="form-group">
+                    <input type="text" name="shading_type" placeholder="차양 종류">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="shading_solar_transmittance" placeholder="일사 투과율">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="shading_solar_reflectance" placeholder="일사 반사율">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="shading_thickness" placeholder="두께">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="shading_conductivity" placeholder="전도율">
+                </div>
+                <a class="btn btn-default btn-lg" data-toggle="modal" data-target="#shading_modal">차양 정보 선택</a>
+            </div>
+        </div>
     </div>
+
+
 
     <!--Insulation Modal-->
     <div class="modal fade" id="insualtion_modal" tabindex="-1" role="dialog" aria-labelledby="insulation_label" aria-hidden="true">
@@ -145,12 +192,16 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
-                            <label for="recipient-name" class="form-control-label">Recipient:</label>
-                            <input type="text" class="form-control" id="recipient-name">
+                            <label for="window-name" class="form-control-label">창호 다중 추가</label>
+                            <div class="row">
+                                <select id="window-name">
+                                    <option>(Clr5+Air6+Clr5)&(Clr5+Air6+Clr5)</option>
+                                    <option>(Clr5+Air6+Clr5)&(Clr5+Air6+Clr5)</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="message-text" class="form-control-label">Message:</label>
-                        </div>
+                        <button type="button" class="btn btn-primary">추가</button>
+                        <button type="button" class="btn btn-primary">삭제</button>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -160,6 +211,77 @@
             </div>
         </div>
     </div>
+
+    <!--Lighting Modal-->
+    <div class="modal fade" id="lighting_modal" tabindex="-1" role="dialog" aria-labelledby="lighting_label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="lighting_label">조명 종류</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="lighting-name" class="form-control-label">조명 다중 추가</label>
+                            <div class="row">
+                                <select id="lighting-name">
+                                    <option>천장에 매달린 형태</option>
+                                    <option>천장에 붙어있는 형태</option>
+                                    <option>루버형 천장에 설치된 형태</option>
+                                    <option>천장에 매립된 형태</option>
+                                    <option>Return-Air Ducted</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary">추가</button>
+                        <button type="button" class="btn btn-primary">삭제</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                    <button type="button" class="btn btn-primary">저장</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Shading Modal-->
+    <div class="modal fade" id="shading_modal" tabindex="-1" role="dialog" aria-labelledby="shading_label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="shading_label">차양 종류</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="shading-name" class="form-control-label">차양 다중 추가</label>
+                            <div class="row">
+                                <select id="shading-name">
+                                    <option>커튼 (어두운 색상의 빡빡한 직물)</option>
+                                    <option>커튼 (중간 색상의 빡빡한 직물)</option>
+                                    <option>루버형 천장에 설치된 형태</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary">추가</button>
+                        <button type="button" class="btn btn-primary">삭제</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+                    <button type="button" class="btn btn-primary">저장</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     {% endblock %}
     <!-- /.container -->
